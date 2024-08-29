@@ -29,7 +29,7 @@ def main():
     fontRegistered()
     # fontNames = [f.name for f in fm.fontManager.ttflist]
     # print(f'fontName: {fontNames}')
-    fontname = st.selectbox("폰트 선택", unique(fontNames) )
+    # fontname = st.selectbox("폰트 선택", unique(fontNames) )
     # fontname = st.selectbox("폰트 선택", unique(fontNames), index=fontNames.index('NanumGothic'))
     # fontname = st.selectbox("폰트 선택", 'NanumGothic')
     # plt.rc('font', family=fontname)
